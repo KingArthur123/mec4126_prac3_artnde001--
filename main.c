@@ -37,22 +37,10 @@ void main(void)  // declares an instance of age
 
 
 
-	char buffer[3]; // array to store data
-    init_LCD(); // initialising LCD
-    //uint8_t age=0;
 
 
 	while(1)
 	{
-		for(uint8_t i=0;i<=(my_age.age);i++)
-		{
-			delay(60000);
-			sprintf(buffer,"%d",i);
-			lcd_putstring(buffer);  // displays on lcd
-			delay(60000);
-			lcd_command(CLEAR);
-		}
-
 
 	}
 }
